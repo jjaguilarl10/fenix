@@ -42,6 +42,23 @@ una vez creada la bd se deben correr las siguientes instruccion para las bd crea
 
 Nota : Dentro de los seeder se creara un usuario de prueba dentro de la tabla de users, para poder ingresar al sistema, este usuario tendra rol de admistrador.
 
+## tablas generales
+
+- User / tabla general para los usuarios
+- Gener / tabla de configuracion de los generos 
+- Role / tabla de configuracion de los roles ( Adminsitrador , usuario general )
+- State / tabla de configuracion de los estados 
+
+## Directorios Generales
+
+- Views
+    - Auth / Contiene los archivos del formulario de login
+    - dashboard /  coontiene la plantilla para el dashboard general
+    - layout / Contiene los archivos , platillas, templates para el sistema
+    - user  / modulo general para el modulo de gestion de usuarios
+
+
+
 para poner en ejecucion el proyecto puede correr la siguiente instruccion.
 
 php artisan server --host 0.0.0.0 --port 8003 (el numero del puerto puede ser a su conveniencia)
